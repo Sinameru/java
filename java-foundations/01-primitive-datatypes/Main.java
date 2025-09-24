@@ -15,13 +15,13 @@ public class Main {
         boolean flag = true;
 
         // Print them out
-        System.out.println("byte: " + b);
-        System.out.println("short: " + s);
-        System.out.println("int: " + i);
-        System.out.println("long: " + l);
-        System.out.println("float: " + f);
-        System.out.println("double: " + d);
-        System.out.println("char: " + c);
-        System.out.println("boolean: " + flag);
+        System.out.printf("byte: %d\n", b);
+        System.out.printf("short: %d\n", s);
+        System.out.printf("int: %d\n", i);
+        System.out.printf("long: %d\n", l);
+        System.out.printf("float: %f\n", f);
+        System.out.printf("double: %f\n", d);
+        System.out.printf("char: %c\n", c);
+        System.out.printf("boolean: %b\n", flag);
     }
 }
