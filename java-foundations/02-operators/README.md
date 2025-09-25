@@ -84,9 +84,9 @@ Assign or **update variable values**.
 ```java
 int n = 10;
 n += 5;
-        System.out.printf("n += 5 -> %d\n", n);
+System.out.printf("n += 5 -> %d\n", n);
 n %= 4;
-        System.out.printf("n %%= 4 -> %d\n", n);
+System.out.printf("n %%= 4 -> %d\n", n);
 ```
 
 ---
