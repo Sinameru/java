@@ -23,9 +23,12 @@ int instanceVar;           // instance variable
     }
 }
 ```
-Output:
-* Local: 10, Instance: 0, Class: 100
 
+Output:
+
+```
+Local: 10, Instance: 0, Class: 100
+```
 
 ---
 
@@ -50,7 +53,10 @@ int instanceVar = 10;
 ```
 
 Output:
-* Local: 20, Instance: 10, Class: 5
+
+```
+Local: 20, Instance: 10, Class: 5
+```
 
 ---
 
@@ -72,9 +78,11 @@ static int x = 100; // class variable
 ```
 
 Output:
-* Local x: 50
-* Class x: 100
 
+```
+Local x: 50
+Class x: 100
+```
 
 ---
 
