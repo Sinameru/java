@@ -1,4 +1,4 @@
-# Type Conversion & Casting in Java
+# Type Conversion & Casting
 
 In Java, **type conversion** means changing a value from one data type to another.  
 This happens in two main ways: **widening (implicit)** and **narrowing (explicit)** conversions.

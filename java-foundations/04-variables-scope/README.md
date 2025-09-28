@@ -1,4 +1,4 @@
-# Variables & Scope in Java
+# Variables & Scope
 
 In Java, a **variable** is a container that holds data, and **scope** determines where that variable is accessible within the code. Understanding scope helps avoid errors and unexpected behavior.
 

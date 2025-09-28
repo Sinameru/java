@@ -1,34 +1,38 @@
-Java Collections – Fundamentals
+# Collections
 
 This document covers the essentials of Java Collections for certification study. Collections are more flexible than arrays, providing dynamic sizing and useful methods for managing groups of objects.
 
-------------------------------------------------------------
-1. Arrays vs. Collections
+---
 
-- Arrays
-    * Fixed size (cannot grow/shrink after creation).
-    * Can store both primitives and objects.
-    * Access is very fast with indices.
-    * Limited functionality (no built-in methods for adding/removing elements dynamically).
+## 1. Arrays vs. Collections
 
-- Collections
-    * Dynamic size (grow and shrink automatically).
-    * Can only store objects (primitives must be wrapped with wrapper classes like Integer, Double).
-    * Rich set of utility methods (add, remove, search, sort, etc.).
-    * Part of the java.util package.
+### Arrays
 
-Rule of thumb: Use arrays when size is fixed and performance is critical; use collections when flexibility is needed.
+* Fixed size (cannot grow/shrink after creation)
+* Can store both primitives and objects
+* Access is very fast using indices
+* Limited functionality (no built-in methods for dynamic adding/removing of elements)
 
-------------------------------------------------------------
+### Collections
 
-2. Lists
+* Dynamic size (grow and shrink automatically)
+* Can only store objects (primitives must be wrapped using wrapper classes like Integer, Double)
+* Rich set of utility methods (add, remove, search, sort, etc.)
+* Part of the `java.util` package
 
-- List interface (ordered collection, allows duplicates).
-- Common implementations:
-    * ArrayList – resizable array, fast random access, slower inserts/removals in the middle.
-    * LinkedList – elements linked via nodes, faster inserts/removals, slower random access.
+**Rule of thumb:** Use arrays when size is fixed and performance is critical; use collections when flexibility is needed.
 
-Example:
+---
+
+## 2. Lists
+
+* **List interface:** Ordered collection, allows duplicates
+* **Common implementations:**
+
+    * `ArrayList` – resizable array, fast random access, slower inserts/removals in the middle
+    * `LinkedList` – elements linked via nodes, faster inserts/removals, slower random access
+
+**Example:**
 
 ```java
 import java.util.ArrayList;
@@ -45,16 +49,18 @@ linkedList.add(20);
 linkedList.remove(0); // removes 10
 ```
 
-------------------------------------------------------------
-3. Sets
+---
 
-- Set interface (unordered collection, no duplicates).
-- Common implementations:
-    * HashSet – based on hash tables, no guaranteed order.
-    * LinkedHashSet – maintains insertion order.
-    * TreeSet – sorted set, elements in natural order (or by Comparator).
+## 3. Sets
 
-Example:
+* **Set interface:** Unordered collection, no duplicates
+* **Common implementations:**
+
+    * `HashSet` – based on hash tables, no guaranteed order
+    * `LinkedHashSet` – maintains insertion order
+    * `TreeSet` – sorted set, elements in natural order (or by Comparator)
+
+**Example:**
 
 ```java
 import java.util.HashSet;
@@ -66,16 +72,18 @@ set.add("A"); // duplicate ignored
 System.out.println(set.size()); // 2
 ```
 
-------------------------------------------------------------
-4. Maps
+---
 
-- Map interface (key-value pairs, keys unique, values can repeat).
-- Common implementations:
-    * HashMap – stores key-value pairs, no order guaranteed.
-    * LinkedHashMap – maintains insertion order.
-    * TreeMap – sorted by keys.
+## 4. Maps
 
-Example:
+* **Map interface:** Key-value pairs, keys unique, values can repeat
+* **Common implementations:**
+
+    * `HashMap` – stores key-value pairs, no order guaranteed
+    * `LinkedHashMap` – maintains insertion order
+    * `TreeMap` – sorted by keys
+
+**Example:**
 
 ```java
 import java.util.HashMap;
@@ -87,10 +95,11 @@ System.out.println(map.get(1)); // "One"
 map.remove(2);
 ```
 
-------------------------------------------------------------
-Summary
+---
 
-- Arrays are simple, fixed-size, and allow primitives.
-- Lists are ordered, allow duplicates, and are great for sequential data.
-- Sets enforce uniqueness and often optimize membership tests.
-- Maps store data as key-value pairs for fast lookups.
+## Summary
+
+* Arrays are simple, fixed-size, and allow primitives
+* Lists are ordered, allow duplicates, and are ideal for sequential data
+* Sets enforce uniqueness and often optimize membership tests
+* Maps store data as key-value pairs for fast lookups

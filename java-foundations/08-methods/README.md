@@ -1,4 +1,4 @@
-# Java Methods – Fundamentals
+# Methods
 
 This document covers the essentials of Java methods for certification study. Methods allow you to **encapsulate code into reusable blocks**, improving readability, maintainability, and reducing duplication.
 

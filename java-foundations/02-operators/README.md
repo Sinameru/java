@@ -1,4 +1,4 @@
-# Operators in Java
+# Operators
 
 Operators in Java are **symbols that perform operations on variables and values**.
 

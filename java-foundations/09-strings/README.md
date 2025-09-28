@@ -1,4 +1,4 @@
-# Java Strings
+# Strings
 
 This document covers the essentials of Java Strings for certification study. Strings are **immutable sequences of characters** and are used extensively for text manipulation in Java.
 

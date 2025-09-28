@@ -1,4 +1,4 @@
-# Java Loops & Control Flow – Fundamentals
+# Loops & Control Flow
 
 This document covers the essentials of Java loops and control flow for certification study. Understanding these constructs is crucial for writing efficient, readable, and maintainable Java code.
 

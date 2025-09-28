@@ -1,4 +1,4 @@
-# Arrays in Java
+# Arrays
 
 An **array** is a container that holds multiple values of the same type.
 Arrays have a **fixed size** and are indexed starting from 0.
