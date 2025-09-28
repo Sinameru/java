@@ -38,16 +38,17 @@ System.out.println(str); // Hello World
 ## 3. String Operations
 
 * **Common Methods:**
-  | Method | Description | Example |
-  |--------|------------|--------|
-  | `length()` | Returns number of characters | `str.length()` |
-  | `charAt(index)` | Returns character at index | `str.charAt(0)` |
-  | `substring(start, end)` | Extracts substring | `str.substring(0, 3)` |
-  | `equals(obj)` | Compares content | `str1.equals(str2)` |
-  | `compareTo(str)` | Lexicographical comparison | `str1.compareTo(str2)` |
-  | `toUpperCase()` / `toLowerCase()` | Change case | `str.toUpperCase()` |
-  | `trim()` | Removes leading/trailing spaces | `str.trim()` |
-  | `replace(oldChar,newChar)` | Replaces characters | `str.replace('a','b')` |
+
+  | Method                            | Description                     | Example                |
+  |-----------------------------------|---------------------------------|------------------------|
+  | `length()`                        | Returns number of characters    | `str.length()`         |
+  | `charAt(index)`                   | Returns character at index      | `str.charAt(0)`        |
+  | `substring(start, end)`           | Extracts substring              | `str.substring(0, 3)`  |
+  | `equals(obj)`                     | Compares content                | `str1.equals(str2)`    |
+  | `compareTo(str)`                  | Lexicographical comparison      | `str1.compareTo(str2)` |
+  | `toUpperCase()` / `toLowerCase()` | Change case                     | `str.toUpperCase()`    |
+  | `trim()`                          | Removes leading/trailing spaces | `str.trim()`           |
+  | `replace(oldChar,newChar)`        | Replaces characters             | `str.replace('a','b')` |
 
 * **Concatenation:**
 
