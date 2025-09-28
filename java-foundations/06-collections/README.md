@@ -20,6 +20,7 @@ This document covers the essentials of Java Collections for certification study.
 Rule of thumb: Use arrays when size is fixed and performance is critical; use collections when flexibility is needed.
 
 ------------------------------------------------------------
+
 2. Lists
 
 - List interface (ordered collection, allows duplicates).
